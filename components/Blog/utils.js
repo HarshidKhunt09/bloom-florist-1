@@ -31,7 +31,14 @@ export function getArticleSlug(article) {
 }
 
 export function getArticleImage(article) {
-  return article.attributes?.imageUrl || article.attributes?.image?.url || null;
+  const attrs = article.attributes || {};
+  const gallery = attrs.gallery_images;
+  return (
+    attrs.imageUrl ||
+    attrs.image?.url ||
+    (Array.isArray(gallery) && gallery[0] ? gallery[0] : null) ||
+    null
+  );
 }
 
 export function getArticleDate(attrs) {
