@@ -1,0 +1,127 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Pinnacle Physiotherapy" [level=1] [ref=e5]:
+          - link "Pinnacle Physiotherapy" [ref=e6] [cursor=pointer]:
+            - /url: /
+        - navigation "Main navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e11]:
+              - link "About" [ref=e12] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e13]:
+              - link "Services" [ref=e14] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e15]:
+              - link "Contact" [ref=e16] [cursor=pointer]:
+                - /url: /contact
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - article [ref=e19]:
+          - generic [ref=e20]:
+            - 'img "Expert Guide to Running Injury Recovery: Get Back on Track Faster" [ref=e21]'
+            - generic [ref=e22]:
+              - text: Photo by
+              - link "Charles Gaudreault" [ref=e23] [cursor=pointer]:
+                - /url: https://unsplash.com/@dcdg
+              - text: on Unsplash
+          - generic [ref=e24]:
+            - time [ref=e26]: 14 Apr 2026
+            - 'heading "Expert Guide to Running Injury Recovery: Get Back on Track Faster" [level=1] [ref=e27]'
+            - paragraph [ref=e28]: Expert running injury recovery guide from Perth physiotherapists. Evidence-based treatment for runner's knee, shin splints & more. Book online today.
+            - separator [ref=e29]
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: Running injuries affect up to 79% of regular runners each year. The key to successful recovery isn't just rest—it's implementing a strategic rehabilitation plan that addresses the root cause of your injury whilst maintaining your fitness levels.
+            - heading "Common Running Injuries We Treat" [level=2] [ref=e33]
+            - heading "Runner's Knee (Patellofemoral Pain Syndrome)" [level=3] [ref=e34]
+            - paragraph [ref=e35]: This accounts for nearly 20% of all running injuries. You'll feel pain around or behind the kneecap, especially when running downhill or climbing stairs.
+            - heading "Shin Splints" [level=3] [ref=e36]
+            - paragraph [ref=e37]: Characterised by pain along the inner edge of your shinbone, shin splints often result from overtraining or running on hard surfaces without proper footwear.
+            - heading "Plantar Fasciitis" [level=3] [ref=e38]
+            - paragraph [ref=e39]: That sharp heel pain during your first morning steps? It's likely plantar fasciitis—inflammation of the tissue connecting your heel to your toes.
+            - heading "Achilles Tendinopathy" [level=3] [ref=e40]
+            - paragraph [ref=e41]: Pain and stiffness in your Achilles tendon can progress from minor discomfort to a serious injury if not addressed early.
+            - heading "The Evidence-Based Recovery Process" [level=2] [ref=e42]
+            - heading "1. Accurate Diagnosis" [level=3] [ref=e43]
+            - paragraph [ref=e44]: Skip the guesswork. Our physiotherapists conduct thorough assessments to identify exactly what's causing your pain and why it occurred. We analyse your running gait, training load, and biomechanics to create a complete picture.
+            - heading "2. Manage Pain and Inflammation" [level=3] [ref=e45]
+            - paragraph [ref=e46]: "In the initial phase, we use targeted treatments including:"
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - strong [ref=e49]: Dry needling
+                - text: to release muscle tension and trigger points
+              - listitem [ref=e50]:
+                - strong [ref=e51]: Sports massage
+                - text: to improve blood flow and reduce inflammation
+              - listitem [ref=e52]:
+                - strong [ref=e53]: Hydrotherapy
+                - text: for low-impact movement that promotes healing
+            - heading "3. Restore Mobility and Strength" [level=3] [ref=e54]
+            - paragraph [ref=e55]: You can't run properly if you're weak or stiff. Our evidence-based approach includes progressive exercises that rebuild strength in the injured area whilst addressing compensatory weaknesses throughout your kinetic chain.
+            - heading "4. Gradual Return to Running" [level=3] [ref=e56]
+            - paragraph [ref=e57]: We develop a structured return-to-running program that follows the 10% rule—never increasing your weekly mileage by more than 10%. This gradual progression minimises re-injury risk.
+            - heading "5. Address the Root Cause" [level=3] [ref=e58]
+            - paragraph [ref=e59]: Whether it's poor running form, inadequate footwear, or training errors, we identify and correct the factors that led to your injury in the first place.
+            - heading "Your Recovery Timeline" [level=2] [ref=e60]
+            - paragraph [ref=e61]: "Most running injuries improve significantly within 6-12 weeks with proper treatment. However, every injury is unique. Factors affecting your recovery include:"
+            - list [ref=e62]:
+              - listitem [ref=e63]: Severity of the injury
+              - listitem [ref=e64]: How quickly you sought treatment
+              - listitem [ref=e65]: Your compliance with the rehabilitation program
+              - listitem [ref=e66]: Previous injury history
+            - heading "Treatment Options at Pinnacle Physiotherapy" [level=2] [ref=e67]
+            - paragraph [ref=e68]: "Our Perth CBD clinic offers comprehensive running injury rehabilitation:"
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: Clinical Pilates Sessions
+              - text: ": Strengthen your core and improve stability to support proper running mechanics."
+            - paragraph [ref=e71]:
+              - strong [ref=e72]: Advanced Manual Therapy
+              - text: ": Hands-on techniques to restore joint mobility and muscle function."
+            - paragraph [ref=e73]:
+              - strong [ref=e74]: Customised Exercise Programs
+              - text: ": Take-home exercises that accelerate healing and prevent recurrence."
+            - paragraph [ref=e75]:
+              - strong [ref=e76]: Gait Analysis
+              - text: ": Identify biomechanical issues affecting your running efficiency and injury risk."
+            - heading "When to See a Physiotherapist" [level=2] [ref=e77]
+            - paragraph [ref=e78]: "Don't wait for pain to become unbearable. Book an appointment if you experience:"
+            - list [ref=e79]:
+              - listitem [ref=e80]: Pain that persists beyond 3-5 days
+              - listitem [ref=e81]: Swelling that doesn't reduce with rest and ice
+              - listitem [ref=e82]: Pain that worsens during or after running
+              - listitem [ref=e83]: Difficulty bearing weight on the affected leg
+            - heading "Prevent Future Running Injuries" [level=2] [ref=e84]
+            - paragraph [ref=e85]: "Once recovered, maintain injury-free running with these strategies:"
+            - list [ref=e86]:
+              - listitem [ref=e87]: Follow proper training progressions
+              - listitem [ref=e88]: Include strength training twice weekly
+              - listitem [ref=e89]: Replace running shoes every 600-800km
+              - listitem [ref=e90]: Listen to your body and rest when needed
+              - listitem [ref=e91]: Maintain flexibility through regular stretching
+            - heading "Book Your Assessment Today" [level=2] [ref=e92]
+            - paragraph [ref=e93]: Available Monday to Saturday at our Perth CBD location, we offer bulk billing options and convenient online appointments through HotDoc. As NDIS-registered providers, we're equipped to support runners of all abilities on their recovery journey.
+          - generic [ref=e94]:
+            - heading "More Articles" [level=2] [ref=e95]
+            - generic [ref=e96]:
+              - link "BO 14 Apr 2026 Benefits of Dry Needling | Pinnacle Physiotherapy Perth Discover how dry needling at Pinnacle Physiotherapy Perth CBD relieves pain, improves mobility & speeds recovery. Evidence-based treatment. Book online today." [ref=e97] [cursor=pointer]:
+                - /url: /benefits-of-dry-needling-pinnacle-physiotherapy-perth
+                - generic [ref=e98]:
+                  - generic [ref=e101]: BO
+                  - generic [ref=e102]:
+                    - time [ref=e103]: 14 Apr 2026
+                    - heading "Benefits of Dry Needling | Pinnacle Physiotherapy Perth" [level=3] [ref=e104]
+                    - paragraph [ref=e105]: Discover how dry needling at Pinnacle Physiotherapy Perth CBD relieves pain, improves mobility & speeds recovery. Evidence-based treatment. Book online today.
+              - link "EE 14 Apr 2026 Effective Exercises for Lower Back Pain | Pinnacle Physiotherapy Perth Discover effective exercises for lower back pain relief from Perth's trusted physiotherapy clinic. Evidence-based treatments. Bulk billing available. Book online." [ref=e106] [cursor=pointer]:
+                - /url: /effective-exercises-for-lower-back-pain-pinnacle-physiothera
+                - generic [ref=e107]:
+                  - generic [ref=e110]: EE
+                  - generic [ref=e111]:
+                    - time [ref=e112]: 14 Apr 2026
+                    - heading "Effective Exercises for Lower Back Pain | Pinnacle Physiotherapy Perth" [level=3] [ref=e113]
+                    - paragraph [ref=e114]: Discover effective exercises for lower back pain relief from Perth's trusted physiotherapy clinic. Evidence-based treatments. Bulk billing available. Book online.
+        - paragraph [ref=e117]: Copyright © 2026 Pinnacle Physiotherapy. All rights reserved.
+  - alert [ref=e118]

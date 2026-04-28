@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Pinnacle Physiotherapy" [level=1] [ref=e5]:
+          - link "Pinnacle Physiotherapy" [ref=e6] [cursor=pointer]:
+            - /url: /
+        - navigation "Main navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e11]:
+              - link "About" [ref=e12] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e13]:
+              - link "Services" [ref=e14] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e15]:
+              - link "Contact" [ref=e16] [cursor=pointer]:
+                - /url: /contact
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - heading "Your Partners in Recovery and Peak Performance" [level=1] [ref=e21]
+          - heading "About Pinnacle Physiotherapy | Expert Perth CBD Physio Team" [level=3] [ref=e22]
+          - paragraph [ref=e23]: At Pinnacle Physiotherapy, we're more than just a clinic in Perth's CBD—we're your dedicated team committed to getting you back to what you love doing. Our evidence-based approach combines the latest therapeutic techniques with genuine care, delivering faster recovery times and lasting results for sports injuries, chronic pain, and post-surgical rehabilitation.
+        - generic [ref=e25]:
+          - heading "Ready to Get Started?" [level=2] [ref=e26]
+          - paragraph [ref=e27]: Book your comprehensive assessment with our expert Perth physio team. Bulk billing available for eligible patients. Online booking through HotDoc makes it easy—choose your appointment time today.
+          - button "Contact Us" [ref=e28] [cursor=pointer]
+        - generic [ref=e30]:
+          - generic:
+            - img "Gallery image 1"
+          - generic:
+            - img "Gallery image 2"
+          - generic:
+            - img "Gallery image 3"
+          - generic:
+            - img "Gallery image 4"
+          - generic:
+            - img "Gallery image 5"
+          - generic:
+            - img "Gallery image 6"
+        - generic [ref=e32]:
+          - heading "About Pinnacle Physiotherapy" [level=2] [ref=e33]
+          - paragraph [ref=e34]: About Pinnacle Physiotherapy | Expert Perth CBD Physio Team
+          - generic [ref=e35]: "## Perth's Trusted Physiotherapy Experts Since opening our doors in Perth's CBD, Pinnacle Physiotherapy has helped thousands of Western Australians recover from injury, manage pain, and achieve their physical goals. Whether you're a weekend warrior nursing a sports injury, dealing with persistent back pain, or recovering from surgery, our experienced team is here to guide you every step of the way. ## Our Evidence-Based Approach We believe in treatments that work. That's why every therapy we offer is backed by the latest clinical research and delivered by highly qualified physiotherapists who genuinely care about your outcomes. Our comprehensive assessment process means we don't just treat symptoms—we identify and address the root cause of your condition. From your first appointment, you'll notice the Pinnacle difference. We take time to listen, thoroughly assess your condition, and create a personalised treatment plan designed specifically for your body and your goals. ## Comprehensive Services Under One Roof Our state-of-the-art CBD clinic offers a complete range of physiotherapy services to meet your needs: **Specialised Treatments:** - Dry needling for trigger point release and pain management - Sports massage for muscle recovery and performance - Hydrotherapy sessions in our temperature-controlled pool - Clinical Pilates classes for core strength and injury prevention - NDIS-registered care with experienced providers **Conditions We Treat:** - Sports injuries including sprains, strains, and overuse conditions - Back and neck pain, both acute and chronic - Post-surgical rehabilitation with structured recovery programs - Workplace injuries and ergonomic assessments - Joint pain and arthritis management - Pre and post-natal physiotherapy ## Accessible and Convenient Care We understand that life doesn't stop when you're injured. That's why we've made accessing quality physiotherapy as easy as possible. Bulk billing is available for eligible patients, meaning you may have no out-of-pocket expenses for your treatment. Our Perth CBD location is easily accessible by public transport, with convenient parking nearby. We're open Monday to Saturday, with early morning and evening appointments available to fit around your work and family commitments. Booking is simple through HotDoc—our online appointment system lets you choose your preferred physiotherapist and time slot in just a few clicks. ## Meet Your Care Team Our physiotherapists aren't just highly qualified—they're passionate about what they do. Each team member brings specialised skills and years of experience, ensuring you receive expert care no matter your condition. We invest heavily in ongoing education, attending regular workshops and conferences to stay at the forefront of physiotherapy practice. But qualifications are only part of the story. What really sets our team apart is their genuine commitment to your wellbeing. They'll celebrate your wins, support you through challenges, and adjust your treatment plan as you progress. ## Fast Results You Can Trust Our patients consistently report faster recovery times and better outcomes. Why? Because we combine clinical excellence with a personalised approach. We'll equip you with home exercises, lifestyle advice, and self-management strategies that accelerate your recovery and prevent future injuries. ## Ready to Start Your Recovery? Don't let pain or injury hold you back any longer. Our Perth CBD clinic is ready to welcome you, and our team is eager to help you achieve your health and performance goals. Book online through HotDoc today, or give us a call to discuss how we can help."
+        - paragraph [ref=e38]: Copyright © 2026 Pinnacle Physiotherapy. All rights reserved.
+  - alert [ref=e39]

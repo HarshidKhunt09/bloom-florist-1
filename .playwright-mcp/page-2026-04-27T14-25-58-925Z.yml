@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Pinnacle Physiotherapy" [level=1] [ref=e5]:
+          - link "Pinnacle Physiotherapy" [ref=e6] [cursor=pointer]:
+            - /url: /
+        - navigation "Main navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e11]:
+              - link "About" [ref=e12] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e13]:
+              - link "Services" [ref=e14] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e15]:
+              - link "Contact" [ref=e16] [cursor=pointer]:
+                - /url: /contact
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - heading "Get Back to Your Best – Book Your Physiotherapy Appointment Today" [level=1] [ref=e21]
+          - heading "Contact Pinnacle Physiotherapy Perth CBD | Book Your Appointment" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Ready to start your recovery journey? Our friendly team at Pinnacle Physiotherapy is here to help you overcome pain and get back to doing what you love. Contact us today to book your appointment or ask any questions about our evidence-based treatments.
+        - generic [ref=e25]:
+          - heading "Ready to Take the First Step Towards Recovery?" [level=2] [ref=e26]
+          - paragraph [ref=e27]: Book your appointment online now via HotDoc or call our friendly team on (08) 9123 4567. Same-week appointments often available, with bulk billing options for eligible patients.
+          - button "Contact Us" [ref=e28] [cursor=pointer]
+        - generic [ref=e30]:
+          - heading "Get Back to Your Best – Book Your Physiotherapy Appointment Today" [level=2] [ref=e31]
+          - generic [ref=e32]: "# Get in Touch with Pinnacle Physiotherapy Whether you're recovering from a sports injury, managing chronic back pain, or need post-surgical rehabilitation, our experienced team in Perth's CBD is ready to help you achieve fast, lasting results. ## Visit Our Perth CBD Clinic **Pinnacle Physiotherapy** Suite 12, 145 St Georges Terrace Perth WA 6000 Conveniently located in the heart of Perth's CBD with easy access to public transport and nearby parking facilities. ## Contact Details **Phone:** (08) 9123 4567 **Email:** info@pinnacle-physio.com.au **Fax:** (08) 9123 4568 ## Clinic Opening Hours - **Monday to Friday:** 7:00am – 7:00pm - **Saturday:** 8:00am – 2:00pm - **Sunday:** Closed Extended hours available to fit around your busy schedule. ## Book Your Appointment Online Skip the phone queue and book your appointment 24/7 through HotDoc. Simply select your preferred physiotherapist, choose a time that suits you, and receive instant confirmation. It's that easy! [Book via HotDoc →](#) ## Bulk Billing Available We offer bulk billing options for eligible patients with valid referrals and chronic disease management plans. Check with our reception team to see if you qualify. ## Our Services Not sure which treatment is right for you? Our physiotherapists specialise in: - **Sports injury rehabilitation** – Get back in the game faster - **Back and neck pain management** – Evidence-based relief - **Post-surgical rehabilitation** – Structured recovery programs - **Dry needling** – Target trigger points effectively - **Sports massage** – Enhanced recovery and performance - **Hydrotherapy** – Low-impact aquatic therapy - **Clinical Pilates** – Strengthen your core and prevent injury - **NDIS-registered care** – Fully accredited disability support ## Frequently Asked Questions **Do I need a referral?** No referral is necessary to see a physiotherapist. However, if you have private health insurance or are claiming under a chronic disease management plan, a GP referral may be required. **What should I bring to my first appointment?** Please bring any relevant medical reports, scans, or imaging results, along with your Medicare card and private health insurance details if applicable. **Do you have parking?** Yes, there's secure underground parking in our building, plus several public car parks within walking distance. **Are your facilities accessible?** Absolutely. Our clinic is fully wheelchair accessible with lift access and accessible treatment rooms. ## NDIS Participants Welcome Pinnacle Physiotherapy is a registered NDIS provider. We work closely with participants, support coordinators, and carers to deliver tailored physiotherapy services that help you achieve your goals. Contact us to discuss how we can support your NDIS plan. ## Ready to Start Your Recovery? Don't let pain hold you back any longer. Our caring team is committed to delivering evidence-based treatments that get real results. Contact Pinnacle Physiotherapy today and take the first step towards a stronger, healthier you."
+        - paragraph [ref=e35]: Copyright © 2026 Pinnacle Physiotherapy. All rights reserved.
+  - alert [ref=e36]

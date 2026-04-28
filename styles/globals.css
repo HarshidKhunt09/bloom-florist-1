@@ -1,0 +1,755 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#__next {
+  width: 100%;
+  max-width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Responsive grid utilities */
+.responsive-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+}
+
+/* Focus-visible for keyboard-only focus */
+:focus-visible {
+  outline: 2px solid var(--color-primary, #2563eb);
+  outline-offset: 2px;
+}
+
+/* Smooth component entry */
+.component-enter {
+  animation: componentFadeIn 0.4s ease-out;
+}
+
+@keyframes componentFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Testimonials Grid Responsive Styles */
+.testimonials-grid-container {
+  display: grid;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive grid columns */
+@media (max-width: 768px) {
+  .testimonials-grid-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonials-grid-container[data-columns="3"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .testimonials-grid-container[data-columns="4"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Testimonial card styles */
+.testimonial-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+}
+
+.testimonial-card img {
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive testimonials */
+@media (max-width: 768px) {
+  .testimonials-grid {
+    padding: 2rem 1rem !important;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Header and Navigation Styles */
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: var(--color-primary, #2563eb);
+  transition: color 0.2s ease;
+}
+
+.site-title a:hover {
+  color: var(--color-primary, #1d4ed8);
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  background-color: #f3f4f6;
+  color: var(--color-primary, #2563eb);
+  transform: translateY(-1px);
+}
+
+.nav-link:focus {
+  background-color: var(--color-primary, #2563eb);
+  color: white;
+  outline: none;
+}
+
+/* Active state for current page */
+.nav-link.active {
+  background-color: var(--color-primary, #2563eb);
+  color: white;
+}
+
+.nav-link.active:hover {
+  background-color: var(--color-primary, #1d4ed8);
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+/* Full-width wrapper for component system pages */
+.page-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Legacy layout container styles */
+.container {
+  max-width: min(1200px, 95vw);
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
+.container > .header {
+  padding: clamp(2rem, 5vw, 4rem) 0 clamp(1rem, 2vw, 2rem);
+}
+
+.container > .header h1,
+.container > .header h2 {
+  line-height: 1.2;
+}
+
+.container > .header h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.container > .header h2,
+.container > .header h3 {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: #555;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.container > .content {
+  padding: clamp(1rem, 3vw, 2rem) 0;
+  line-height: 1.7;
+  font-size: clamp(0.95rem, 1.5vw, 1.0625rem);
+}
+
+.container > .content p {
+  margin-bottom: 1rem;
+}
+
+.article-selection {
+  margin-top: 40px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.article-selection h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.article-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.article-card p {
+  font-size: 14px;
+  color: #666;
+  word-wrap: break-word;
+}
+
+/* Footer Styles */
+.app-footer {
+  background: var(--color-secondary, #64748b);
+  color: #ffffff;
+  padding: 3rem 1rem 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-navigation {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-navigation .SiteMap {
+  margin: 0;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+  font-size: 0.875rem;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-link:focus {
+  outline: 2px solid var(--color-primary, #2563eb);
+  outline-offset: 2px;
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-copyright p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-primary, #2563eb);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.3s ease forwards;
+}
+
+.back-to-top:hover {
+  background: var(--color-primary, #1d4ed8);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top:focus {
+  outline: 2px solid var(--color-primary, #2563eb);
+  outline-offset: 2px;
+}
+
+.back-to-top:active {
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.article-card .image-container {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.article-card .image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-card .image-container p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    padding: 1rem;
+    min-height: auto;
+    gap: 0.75rem;
+  }
+  
+  .site-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .main-navigation {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .app-footer {
+    padding: 2rem 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-navigation {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-link {
+    font-size: 0.8125rem;
+  }
+  
+  .footer-copyright {
+    padding-top: 1rem;
+  }
+  
+  .footer-copyright p {
+    font-size: 0.8125rem;
+  }
+  
+  .back-to-top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0.5rem;
+  }
+  
+  .site-title {
+    font-size: 1.125rem;
+  }
+  
+  .nav-list {
+    gap: 0.125rem;
+  }
+  
+  .nav-link {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.8125rem;
+  }
+  
+  .app-footer {
+    padding: 1.5rem 0.75rem 1.25rem;
+    margin-top: 1.5rem;
+  }
+  
+  .footer-link {
+    font-size: 0.75rem;
+  }
+  
+  .footer-copyright {
+    padding-top: 0.75rem;
+  }
+  
+  .footer-copyright p {
+    font-size: 0.75rem;
+  }
+  
+  .back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  .image-container {
+    padding: 0 10px;
+  }
+}
+
+/* ── Article Detail Content Styles ── */
+.article-content h1 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin: 2rem 0 0.75rem;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.article-content h2 {
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+  font-weight: 700;
+  margin: 1.75rem 0 0.6rem;
+  color: #111827;
+  line-height: 1.35;
+}
+
+.article-content h3 {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+.article-content p {
+  margin: 0 0 1.25rem;
+  line-height: 1.85;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.35rem;
+  line-height: 1.75;
+}
+
+.article-content blockquote {
+  border-left: 3px solid #e5e7eb;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  color: #6b7280;
+  font-style: italic;
+  background: #f9fafb;
+  border-radius: 0 6px 6px 0;
+}
+
+.article-content a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.article-content a:hover {
+  color: #1d4ed8;
+}
+
+.article-content code {
+  background: #f3f4f6;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+.article-content pre {
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 1.25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.article-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.article-content hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.article-content th,
+.article-content td {
+  border: 1px solid #e5e7eb;
+  padding: 0.6rem 0.85rem;
+  text-align: left;
+  font-size: 0.92rem;
+}
+
+.article-content th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+/* prose-content — rendered from markdown in ContentSection / AboutSection */
+.prose-content h1,
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 2rem 0 1rem;
+  color: inherit;
+}
+.prose-content h1 { font-size: clamp(1.75rem, 3.5vw, 2.25rem); }
+.prose-content h2 { font-size: clamp(1.5rem, 3vw, 1.875rem); }
+.prose-content h3 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+.prose-content h4 { font-size: 1.125rem; }
+.prose-content p { margin: 0 0 1.25rem; }
+.prose-content ul,
+.prose-content ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+.prose-content li { margin: 0.4rem 0; }
+.prose-content strong { font-weight: 700; }
+.prose-content em { font-style: italic; }
+.prose-content a {
+  color: var(--color-primary, #2563eb);
+  text-decoration: underline;
+}
+.prose-content a:hover { opacity: 0.85; }
+.prose-content blockquote {
+  border-left: 4px solid var(--color-primary, #2563eb);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.025);
+  border-radius: 0 6px 6px 0;
+}
+.prose-content code {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+.prose-content > :first-child { margin-top: 0; }
+.prose-content > :last-child { margin-bottom: 0; }
+
+/* Enforce safe horizontal padding on every component section.
+   Needed because AI-generated styles often set "padding: 5rem 0" (zero
+   horizontal) which makes cards touch screen edges on mobile. !important
+   is intentional — this is a UX safety floor, not a design decision. */
+.hero-fullscreen,
+.hero-split,
+.hero-minimal,
+.features-icon-cards,
+.features-three-column,
+.features-four-column,
+.cta-banner,
+.cta-centered,
+.cta-split,
+.content-one-column,
+.content-two-column,
+.gallery-grid,
+.gallery-masonry,
+.about-story,
+.about-split,
+.blog-grid,
+.blog-featured,
+.testimonials-grid {
+  padding-left: clamp(1rem, 4vw, 3rem) !important;
+  padding-right: clamp(1rem, 4vw, 3rem) !important;
+  box-sizing: border-box;
+}
+
+/* Inner content blocks that have their own max-width should not get extra padding */
+.hero-fullscreen > *,
+.hero-split > *,
+.features-icon-cards > *,
+.features-three-column > *,
+.cta-centered > *,
+.cta-split > *,
+.testimonials-grid > * {
+  max-width: 100%;
+}

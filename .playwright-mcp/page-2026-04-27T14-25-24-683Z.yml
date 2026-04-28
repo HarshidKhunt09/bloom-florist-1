@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Pinnacle Physiotherapy" [level=1] [ref=e5]:
+          - link "Pinnacle Physiotherapy" [ref=e6] [cursor=pointer]:
+            - /url: /
+        - navigation "Main navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e11]:
+              - link "About" [ref=e12] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e13]:
+              - link "Services" [ref=e14] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e15]:
+              - link "Contact" [ref=e16] [cursor=pointer]:
+                - /url: /contact
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - heading "Expert Physiotherapy Services to Get You Moving Again" [level=1] [ref=e21]
+            - heading "Physiotherapy Services Perth CBD | Pinnacle Physiotherapy" [level=3] [ref=e22]
+            - paragraph [ref=e23]: At Pinnacle Physiotherapy, we deliver evidence-based treatments that get real results for Perth locals dealing with sports injuries, chronic back pain, and post-surgical recovery. Our experienced team combines cutting-edge techniques with genuine care to help you return to the activities you love, faster and stronger than before.
+            - button "Get Started" [ref=e24] [cursor=pointer]
+          - img "Physiotherapy Services Perth CBD | Pinnacle Physiotherapy" [ref=e26]
+        - generic [ref=e27]:
+          - heading "Our Services" [level=2] [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31] [cursor=pointer]:
+              - img [ref=e33]: 🏅
+              - heading "Evidence-Based Treatments" [level=3] [ref=e34]
+              - paragraph [ref=e35]: We use proven, research-backed techniques to deliver faster, more effective results. Your treatment plan is grounded in the latest clinical evidence, ensuring you receive the highest standard of care tailored to your specific condition and recovery goals.
+            - generic [ref=e36] [cursor=pointer]:
+              - img [ref=e38]: 👥
+              - heading "Experienced Clinical Team" [level=3] [ref=e39]
+              - paragraph [ref=e40]: Our physiotherapists bring years of specialist experience in sports injuries, chronic pain management, and post-surgical rehabilitation. We're committed to ongoing professional development to provide you with cutting-edge treatment approaches and compassionate care.
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e43]: 🕐
+              - heading "Convenient & Accessible" [level=3] [ref=e44]
+              - paragraph [ref=e45]: Located in Perth's CBD with extended hours Monday to Saturday, plus online booking through HotDoc. We offer bulk billing options for eligible patients and accept NDIS participants, making expert physiotherapy care accessible when you need it most.
+            - generic [ref=e46] [cursor=pointer]:
+              - img [ref=e48]: 🏆
+              - heading "Comprehensive Service Range" [level=3] [ref=e49]
+              - paragraph [ref=e50]: From dry needling and sports massage to hydrotherapy and clinical Pilates, we offer diverse treatment modalities under one roof. This integrated approach means we can create truly personalised treatment plans that address all aspects of your recovery.
+            - generic [ref=e51] [cursor=pointer]:
+              - img [ref=e53]: 🎯
+              - heading "Fast, Lasting Results" [level=3] [ref=e54]
+              - paragraph [ref=e55]: We focus on not just relieving symptoms, but addressing the underlying causes of your condition. Our goal-oriented approach combines hands-on treatment with education and exercise prescription to ensure sustainable, long-term outcomes that keep you active.
+            - generic [ref=e56] [cursor=pointer]:
+              - img [ref=e58]: ❤️
+              - heading "Patient-Centred Care" [level=3] [ref=e59]
+              - paragraph [ref=e60]: Your recovery journey is unique, and so is our approach. We take time to understand your goals, lifestyle, and challenges, creating treatment plans that fit your life. You're an active partner in your recovery, supported every step of the way.
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - heading "Ready to Begin?" [level=2] [ref=e64]
+            - paragraph [ref=e65]: Book your appointment online via HotDoc or call our Perth CBD clinic. Bulk billing available for eligible patients. Let's get you moving pain-free again.
+          - button "Contact Us" [ref=e67] [cursor=pointer]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "Expert Physiotherapy Services to Get You Moving Again" [level=2] [ref=e71]
+            - generic [ref=e72]: "# Comprehensive Physiotherapy Services in Perth CBD Whether you're an athlete recovering from injury, managing persistent pain, or rehabilitating after surgery, Pinnacle Physiotherapy provides tailored treatment plans designed around your specific needs and goals. ## Our Core Services ### Sports Injury Rehabilitation Our sports physiotherapy specialists understand the demands athletes face. We treat everything from acute sprains and strains to overuse injuries, using targeted techniques to restore function and prevent re-injury. Whether you're a weekend warrior or competitive athlete, we'll create a personalised recovery program that gets you back in the game safely. ### Back Pain & Spinal Care Chronic back pain doesn't have to be your reality. Our physiotherapists use comprehensive assessments to identify the root cause of your discomfort, then develop treatment strategies combining manual therapy, targeted exercises, and education to provide lasting relief. We treat acute episodes, chronic conditions, and everything in between. ### Post-Surgical Rehabilitation Recovery after surgery requires expert guidance. Our post-operative rehabilitation programs are designed in collaboration with your surgeon's protocols, focusing on restoring mobility, building strength, and ensuring optimal healing outcomes. We support you through every stage of recovery with compassion and clinical excellence. ## Specialised Treatment Modalities ### Dry Needling This advanced technique targets trigger points and tight muscles to provide rapid pain relief and improved movement. Our qualified physiotherapists use dry needling as part of comprehensive treatment plans for muscular pain, sports injuries, and chronic tension. ### Sports Massage Therapy Therapeutic sports massage enhances recovery, reduces muscle tension, and improves performance. Perfect for athletes in training or anyone experiencing muscular tightness and discomfort. ### Hydrotherapy Water-based rehabilitation offers gentle, effective treatment for injuries, arthritis, and post-surgical recovery. The buoyancy and resistance of water provide an ideal environment for rebuilding strength and mobility with reduced joint stress. ### Clinical Pilates Our physiotherapist-led Pilates sessions focus on core strength, flexibility, and body awareness. Small class sizes ensure personalised attention and proper technique, making it ideal for injury prevention and rehabilitation. ### NDIS-Registered Care As an NDIS-registered provider, we deliver specialised physiotherapy services to participants with disabilities. Our team creates individualised programs that improve mobility, independence, and quality of life, working closely with support coordinators and families. ## Why Choose Pinnacle Physiotherapy? **Convenient CBD Location** – Easy access for Perth workers and residents, with flexible appointment times to suit your schedule. **Bulk Billing Available** – We offer bulk billing options to eligible patients, making quality physiotherapy accessible and affordable. **Extended Hours** – Open Monday to Saturday, because recovery doesn't wait for the working week to end. **Online Booking** – Book your appointment anytime via HotDoc for ultimate convenience. **Evidence-Based Care** – We stay current with the latest research to ensure you receive the most effective treatments available. **Patient-Centred Approach** – Your goals are our priority. We listen, educate, and empower you throughout your recovery journey. ## Ready to Start Your Recovery? Don't let pain hold you back any longer. Our caring team is ready to help you achieve your recovery goals with personalised treatment plans backed by clinical expertise. Book your appointment online today through HotDoc or call us to discuss how we can help you move better and feel stronger."
+          - img "Expert Physiotherapy Services to Get You Moving Again" [ref=e74]
+        - paragraph [ref=e77]: Copyright © 2026 Pinnacle Physiotherapy. All rights reserved.
+  - alert [ref=e78]

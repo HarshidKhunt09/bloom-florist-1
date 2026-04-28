@@ -1,0 +1,111 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Pinnacle Physiotherapy" [level=1] [ref=e5]:
+          - link "Pinnacle Physiotherapy" [ref=e6] [cursor=pointer]:
+            - /url: /
+        - navigation "Main navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e11]:
+              - link "About" [ref=e12] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e13]:
+              - link "Services" [ref=e14] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e15]:
+              - link "Contact" [ref=e16] [cursor=pointer]:
+                - /url: /contact
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - heading "Get Back to Your Best with Perth's Leading CBD Physiotherapy Clinic" [level=1] [ref=e21]
+          - heading "Pinnacle Physiotherapy - Expert Physio in Perth CBD" [level=3] [ref=e22]
+          - paragraph [ref=e23]: At Pinnacle Physiotherapy, we combine evidence-based treatments with genuine care to help you recover faster from sports injuries, chronic pain, and post-surgical rehabilitation. Our experienced team in Perth's CBD is dedicated to getting you back to the activities you love, stronger and healthier than before.
+          - button "Get Started" [ref=e24] [cursor=pointer]
+        - generic [ref=e25]:
+          - heading "Why Choose Us" [level=2] [ref=e27]
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - img [ref=e31]: 🏅
+              - heading "Evidence-Based Treatment" [level=3] [ref=e32]
+              - paragraph [ref=e33]: We use only proven, research-backed techniques to ensure the fastest and most effective recovery. Every treatment plan is tailored to your specific condition, goals, and lifestyle, giving you the best possible outcomes.
+            - generic [ref=e34]:
+              - img [ref=e36]: ❤️
+              - heading "Bulk Billing Available" [level=3] [ref=e37]
+              - paragraph [ref=e38]: Quality physiotherapy should be accessible to everyone. We offer bulk billing options for eligible patients, making professional treatment more affordable when you need it most.
+            - generic [ref=e39]:
+              - img [ref=e41]: 🕐
+              - heading "Convenient CBD Location" [level=3] [ref=e42]
+              - paragraph [ref=e43]: Located in Perth's CBD with Monday to Saturday appointments and easy online booking through HotDoc. We fit seamlessly into your busy schedule with flexible appointment times and convenient access.
+            - generic [ref=e44]:
+              - img [ref=e46]: ⭐
+              - heading "Comprehensive Services" [level=3] [ref=e47]
+              - paragraph [ref=e48]: From dry needling and sports massage to hydrotherapy and clinical pilates, we offer a full range of therapeutic services under one roof. Our NDIS-registered care ensures support for all patients.
+            - generic [ref=e49]:
+              - img [ref=e51]: 👥
+              - heading "Expert Care Team" [level=3] [ref=e52]
+              - paragraph [ref=e53]: Our experienced physiotherapists combine clinical expertise with genuine compassion. We listen, explain clearly, and work collaboratively to help you achieve your health and performance goals.
+            - generic [ref=e54]:
+              - img [ref=e56]: ⚡
+              - heading "Fast Results" [level=3] [ref=e57]
+              - paragraph [ref=e58]: We understand you want to return to normal life quickly. Our targeted treatment approaches and personalised exercise programs are designed to accelerate your recovery and prevent future setbacks.
+        - generic [ref=e60]:
+          - heading "Ready to Recover? Book Your Appointment Today" [level=2] [ref=e61]
+          - paragraph [ref=e62]: Experience expert physiotherapy care in Perth's CBD. Book online through HotDoc in minutes and take the first step towards a pain-free, active life. Bulk billing available for eligible patients.
+          - button "Contact Us" [ref=e63] [cursor=pointer]
+        - region "Blog articles" [ref=e64]:
+          - generic [ref=e65]:
+            - heading "Latest from Our Blog" [level=2] [ref=e67]
+            - generic [ref=e68]:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: /how-to-recover-from-a-running-injury-pinnacle-physiotherapy-
+                - article [ref=e70]:
+                  - img "How to Recover from a Running Injury | Pinnacle Physiotherapy Perth" [ref=e72]
+                  - generic [ref=e73]:
+                    - time [ref=e75]: 14 Apr 2026
+                    - heading "How to Recover from a Running Injury | Pinnacle Physiotherapy Perth" [level=3] [ref=e76]
+                    - paragraph [ref=e77]: Running injuries don't have to end your training goals. Whether you're dealing with runner's knee, shin splints, plantar fasciitis, or an Achilles…
+                    - generic [ref=e79]: Read More →
+              - link [ref=e80] [cursor=pointer]:
+                - /url: /benefits-of-dry-needling-pinnacle-physiotherapy-perth
+                - article [ref=e81]:
+                  - img "Benefits of Dry Needling | Pinnacle Physiotherapy Perth" [ref=e83]
+                  - generic [ref=e84]:
+                    - time [ref=e86]: 14 Apr 2026
+                    - heading "Benefits of Dry Needling | Pinnacle Physiotherapy Perth" [level=3] [ref=e87]
+                    - paragraph [ref=e88]: Dry needling is a powerful, evidence-based treatment that's revolutionising how we manage chronic pain, sports injuries, and muscle tension. At…
+                    - generic [ref=e90]: Read More →
+              - link [ref=e91] [cursor=pointer]:
+                - /url: /effective-exercises-for-lower-back-pain-pinnacle-physiothera
+                - article [ref=e92]:
+                  - img "Effective Exercises for Lower Back Pain | Pinnacle Physiotherapy Perth" [ref=e94]
+                  - generic [ref=e95]:
+                    - time [ref=e97]: 14 Apr 2026
+                    - heading "Effective Exercises for Lower Back Pain | Pinnacle Physiotherapy Perth" [level=3] [ref=e98]
+                    - paragraph [ref=e99]: Lower back pain affects millions of Australians, but the right exercises can provide significant relief and prevent future episodes. At Pinnacle…
+                    - generic [ref=e101]: Read More →
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: MC
+            - generic [ref=e106]: Marcus Chen
+            - generic [ref=e107]: Software Engineer, Woodside Energy
+            - img "5 out of 5 stars" [ref=e109]: ★★★★★
+            - paragraph [ref=e110]: After struggling with chronic lower back pain for two years, Pinnacle Physiotherapy finally got me pain-free. The team's combination of dry needling, targeted exercises, and clinical pilates has been life-changing. I'm back playing basketball on weekends and actually sitting comfortably at my desk all day.
+          - generic [ref=e111]:
+            - generic [ref=e112]: SW
+            - generic [ref=e113]: Sarah Williams
+            - generic [ref=e114]: Professional Netballer
+            - img "5 out of 5 stars" [ref=e116]: ★★★★★
+            - paragraph [ref=e117]: I've worked with physios across Australia, and the team at Pinnacle Physiotherapy are absolutely top-tier. They rehabilitated my ACL reconstruction perfectly, getting me back on court ahead of schedule. Their sports massage and hydrotherapy sessions were crucial to my recovery. Couldn't recommend them more highly.
+          - generic [ref=e118]:
+            - generic [ref=e119]: DT
+            - generic [ref=e120]: David Thompson
+            - generic [ref=e121]: Retired Teacher
+            - img "5 out of 5 stars" [ref=e123]: ★★★★★
+            - paragraph [ref=e124]: The care and attention I received at Pinnacle Physiotherapy after my hip replacement surgery was outstanding. The physiotherapists explained everything clearly, the exercises actually worked, and the bulk billing made it so much easier to afford the sessions I needed. I'm now walking further than I have in a decade!
+        - paragraph [ref=e127]: Copyright © 2026 Pinnacle Physiotherapy. All rights reserved.
+  - alert [ref=e128]
